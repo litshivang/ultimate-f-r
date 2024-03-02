@@ -1,0 +1,132 @@
+2024-03-02 12:11:00,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:11:00,196 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:11:06,602 - ERROR - Error in recognize_face: too many values to unpack (expected 2)
+2024-03-02 12:11:06,603 - INFO - 127.0.0.1 - - [02/Mar/2024 12:11:06] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:11:44,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:11:44,687 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:11:44,693 - INFO -  * Restarting with stat
+2024-03-02 12:11:45,224 - WARNING -  * Debugger is active!
+2024-03-02 12:11:45,224 - INFO -  * Debugger PIN: 136-189-455
+2024-03-02 12:11:50,287 - ERROR - Error in recognize_face: Object of type int64 is not JSON serializable
+2024-03-02 12:11:50,288 - INFO - 127.0.0.1 - - [02/Mar/2024 12:11:50] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:12:18,787 - INFO -  * Detected change in 'G:\\New folder\\one\\src\\app.py', reloading
+2024-03-02 12:12:18,913 - INFO -  * Restarting with stat
+2024-03-02 12:12:21,899 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:12:21,900 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:12:21,903 - INFO -  * Restarting with stat
+2024-03-02 12:12:22,406 - WARNING -  * Debugger is active!
+2024-03-02 12:12:22,406 - INFO -  * Debugger PIN: 136-189-455
+2024-03-02 12:12:27,834 - INFO - 127.0.0.1 - - [02/Mar/2024 12:12:27] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:13:50,526 - INFO -  * Detected change in 'G:\\New folder\\one\\src\\app.py', reloading
+2024-03-02 12:13:50,661 - INFO -  * Restarting with stat
+2024-03-02 12:13:51,218 - WARNING -  * Debugger is active!
+2024-03-02 12:13:51,240 - INFO -  * Debugger PIN: 136-189-455
+2024-03-02 12:14:05,626 - INFO -  * Detected change in 'G:\\New folder\\one\\src\\app.py', reloading
+2024-03-02 12:14:05,680 - INFO -  * Restarting with stat
+2024-03-02 12:14:06,208 - WARNING -  * Debugger is active!
+2024-03-02 12:14:06,217 - INFO -  * Debugger PIN: 136-189-455
+2024-03-02 12:14:07,438 - INFO -  * Detected change in 'G:\\New folder\\one\\src\\app.py', reloading
+2024-03-02 12:14:07,480 - INFO -  * Restarting with stat
+2024-03-02 12:14:07,983 - WARNING -  * Debugger is active!
+2024-03-02 12:14:07,999 - INFO -  * Debugger PIN: 136-189-455
+2024-03-02 12:14:49,397 - INFO -  * Detected change in 'G:\\New folder\\one\\src\\app.py', reloading
+2024-03-02 12:14:49,459 - INFO -  * Restarting with stat
+2024-03-02 12:14:49,991 - WARNING -  * Debugger is active!
+2024-03-02 12:14:49,997 - INFO -  * Debugger PIN: 136-189-455
+2024-03-02 12:14:56,351 - ERROR - Error in recognize_face: [Errno 2] No such file or directory: 'models/label_encoder.pkl'
+2024-03-02 12:14:56,352 - INFO - 127.0.0.1 - - [02/Mar/2024 12:14:56] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:15:42,090 - INFO -  * Detected change in 'G:\\New folder\\one\\src\\app.py', reloading
+2024-03-02 12:15:42,223 - INFO -  * Restarting with stat
+2024-03-02 12:15:45,119 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:15:45,119 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:15:45,122 - INFO -  * Restarting with stat
+2024-03-02 12:15:45,603 - WARNING -  * Debugger is active!
+2024-03-02 12:15:45,619 - INFO -  * Debugger PIN: 136-189-455
+2024-03-02 12:15:54,420 - INFO -  * Detected change in 'G:\\New folder\\one\\src\\app.py', reloading
+2024-03-02 12:15:54,467 - INFO -  * Restarting with stat
+2024-03-02 12:15:57,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:15:57,246 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:16:00,558 - ERROR - Error in recognize_face: [Errno 2] No such file or directory: 'models/label_encoder.pkl'
+2024-03-02 12:16:00,558 - INFO - 127.0.0.1 - - [02/Mar/2024 12:16:00] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:17:30,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:17:30,450 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:17:37,059 - ERROR - Error in recognize_face: [Errno 2] No such file or directory: 'models/label_encoder.pkl'
+2024-03-02 12:17:37,060 - INFO - 127.0.0.1 - - [02/Mar/2024 12:17:37] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:21:58,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:21:58,886 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:22:05,272 - ERROR - Error in recognize_face: Object of type int64 is not JSON serializable
+2024-03-02 12:22:05,273 - INFO - 127.0.0.1 - - [02/Mar/2024 12:22:05] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:30:34,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:30:34,191 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:30:39,437 - INFO - 127.0.0.1 - - [02/Mar/2024 12:30:39] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:31:32,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:31:32,474 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:31:41,548 - ERROR - Error in recognize_face: y contains previously unseen labels: ['4']
+2024-03-02 12:31:41,549 - INFO - 127.0.0.1 - - [02/Mar/2024 12:31:41] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:32:17,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:32:17,090 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:32:24,425 - INFO - 127.0.0.1 - - [02/Mar/2024 12:32:24] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:32:54,550 - INFO - 127.0.0.1 - - [02/Mar/2024 12:32:54] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:33:03,630 - INFO - 127.0.0.1 - - [02/Mar/2024 12:33:03] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:33:15,041 - INFO - 127.0.0.1 - - [02/Mar/2024 12:33:15] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:34:52,540 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:34:52,540 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:35:26,318 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:35:26,318 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:35:32,395 - INFO - 127.0.0.1 - - [02/Mar/2024 12:35:32] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:35:50,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:35:50,925 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:35:56,251 - INFO - 127.0.0.1 - - [02/Mar/2024 12:35:56] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:36:06,865 - INFO - 127.0.0.1 - - [02/Mar/2024 12:36:06] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:36:20,869 - INFO - 127.0.0.1 - - [02/Mar/2024 12:36:20] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:43:30,349 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-02 12:43:30,350 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-02 12:43:35,827 - INFO - 127.0.0.1 - - [02/Mar/2024 12:43:35] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 12:45:54,894 - INFO - 127.0.0.1 - - [02/Mar/2024 12:45:54] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 13:43:22,946 - INFO - 127.0.0.1 - - [02/Mar/2024 13:43:22] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 13:43:48,984 - INFO - 127.0.0.1 - - [02/Mar/2024 13:43:48] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 13:49:42,297 - INFO - 127.0.0.1 - - [02/Mar/2024 13:49:42] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 14:15:27,148 - INFO - 127.0.0.1 - - [02/Mar/2024 14:15:27] "POST /recognize HTTP/1.1" 200 -
+2024-03-02 14:29:11,686 - INFO - 127.0.0.1 - - [02/Mar/2024 14:29:11] "POST /recognize HTTP/1.1" 200 -
