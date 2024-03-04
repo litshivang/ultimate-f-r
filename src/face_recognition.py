@@ -11,13 +11,7 @@ from sklearn.decomposition import PCA
 import pickle
 
 def load_employee_data(data_dir):
-    """
-    Load employee data from the specified directory.
-    Args:
-        data_dir (str): Path to the directory containing employee images.
-    Returns:
-        tuple: A tuple containing lists of image paths, labels, unique labels, and a label encoder.
-    """
+  
     images = []
     labels = []
     unique_labels = []
@@ -43,13 +37,7 @@ def load_employee_data(data_dir):
 
 
 def extract_embeddings(images):
-    """
-    Extract facial embeddings from images using dlib's face recognition model.
-    Args:
-        images (list): List of image paths.
-    Returns:
-        tuple: Tuple containing lists of facial embeddings, valid images, and labels.
-    """
+    
     detector = dlib.get_frontal_face_detector()
     predictor = dlib.shape_predictor("models/shape_predictor_68_face_landmarks.dat")
     face_rec_model = dlib.face_recognition_model_v1("models/dlib_face_recognition_resnet_model_v1.dat")
@@ -96,14 +84,7 @@ def extract_embeddings(images):
 
 
 def train_model(images, labels):
-    """
-    Train a face recognition model using facial embeddings and corresponding labels.
-    Args:
-        images (list): List of image paths.
-        labels (list): List of labels corresponding to the images.
-    Returns:
-        tuple: Trained face recognition model and label encoder.
-    """
+  
     # Extract facial embeddings and labels
     embeddings, _, valid_labels = extract_embeddings(images)
     
@@ -132,17 +113,8 @@ def train_model(images, labels):
     return model, label_encoder
 
 
-
-
 def save_model(model, label_encoder, model_path, encoder_path):
-    """
-    Save the trained face recognition model and label encoder to files.
-    Args:
-        model (Pipeline): Trained face recognition model.
-        label_encoder (object): Trained label encoder.
-        model_path (str): Path to save the model file.
-        encoder_path (str): Path to save the label encoder file.
-    """
+
     # Save the trained model
     with open(model_path, 'wb') as f:
         pickle.dump(model, f)

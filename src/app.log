@@ -223,3 +223,37 @@
 2024-03-04 17:41:59,932 - INFO - 127.0.0.1 - - [04/Mar/2024 17:41:59] "POST /recognize HTTP/1.1" 200 -
 2024-03-04 17:42:19,876 - ERROR - Error in recognize_face: y contains previously unseen labels: ['ANKIT CHAUHAN']
 2024-03-04 17:42:19,877 - INFO - 127.0.0.1 - - [04/Mar/2024 17:42:19] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:46:08,838 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 17:46:08,838 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 17:46:08,841 - INFO -  * Restarting with stat
+2024-03-04 17:46:09,362 - WARNING -  * Debugger is active!
+2024-03-04 17:46:09,377 - INFO -  * Debugger PIN: 111-365-557
+2024-03-04 17:46:24,087 - ERROR - Error in recognize_face: y contains previously unseen labels: ['ANKIT CHAUHAN']
+2024-03-04 17:46:24,088 - INFO - 127.0.0.1 - - [04/Mar/2024 17:46:24] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:54:37,651 - ERROR - Error in recognize_face: y contains previously unseen labels: ['Rajesh Khengarbhai Javiya']
+2024-03-04 17:54:37,653 - INFO - 127.0.0.1 - - [04/Mar/2024 17:54:37] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:55:08,278 - ERROR - Error in recognize_face: y contains previously unseen labels: ['PATEL RAHULKUMAR KARSHANBHAI']
+2024-03-04 17:55:08,279 - INFO - 127.0.0.1 - - [04/Mar/2024 17:55:08] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:55:30,460 - ERROR - Error in recognize_face: y contains previously unseen labels: ['LILU  BEHERA']
+2024-03-04 17:55:30,461 - INFO - 127.0.0.1 - - [04/Mar/2024 17:55:30] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 18:32:19,993 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 18:32:19,993 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 18:32:19,993 - INFO -  * Restarting with stat
+2024-03-04 18:32:20,501 - WARNING -  * Debugger is active!
+2024-03-04 18:32:20,517 - INFO -  * Debugger PIN: 111-365-557
+2024-03-04 18:32:28,191 - ERROR - Error in recognize_face: [Errno 2] No such file or directory: 'models/face_recognition.pkl'
+2024-03-04 18:32:28,192 - INFO - 127.0.0.1 - - [04/Mar/2024 18:32:28] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 18:32:56,328 - ERROR - Error in recognize_face: y contains previously unseen labels: ['LILU  BEHERA']
+2024-03-04 18:32:56,329 - INFO - 127.0.0.1 - - [04/Mar/2024 18:32:56] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 18:33:48,145 - ERROR - Error in recognize_face: y contains previously unseen labels: ['Akash Palande']
+2024-03-04 18:33:48,146 - INFO - 127.0.0.1 - - [04/Mar/2024 18:33:48] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 18:36:53,061 - ERROR - Error in recognize_face: y contains previously unseen labels: ['AGRAHARI CHETAN']
+2024-03-04 18:36:53,063 - INFO - 127.0.0.1 - - [04/Mar/2024 18:36:53] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 18:37:15,057 - ERROR - Error in recognize_face: y contains previously unseen labels: ['BAGARIYA RASHI']
+2024-03-04 18:37:15,058 - INFO - 127.0.0.1 - - [04/Mar/2024 18:37:15] "POST /recognize HTTP/1.1" 200 -
