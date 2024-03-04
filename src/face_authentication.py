@@ -2,7 +2,8 @@
 import os
 import cv2
 import dlib
-import numpy as np
+import numpy as np 
+
 import pickle
 
 def load_model(model_path):

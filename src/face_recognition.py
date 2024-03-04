@@ -124,6 +124,7 @@ def train_model(images, labels):
     
     return model, label_encoder
 
+
 def save_model(model, model_path, encoder_path):
     """
     Save the trained face recognition model and label encoder to files.
