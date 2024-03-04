@@ -124,23 +124,6 @@ def train_model(images, labels):
     
     return model, label_encoder
 
-def save_model(model, label_encoder, model_path, encoder_path):
-    """
-    Save the trained face recognition model and label encoder to files.
-    Args:
-        model (Pipeline): Trained face recognition model.
-        label_encoder (object): Trained label encoder.
-        model_path (str): Path to save the model file.
-        encoder_path (str): Path to save the label encoder file.
-    """
-    # Save the trained model
-    with open(model_path, 'wb') as f:
-        pickle.dump(model, f)
-    
-    # Save the label encoder
-    with open(encoder_path, 'wb') as f:
-        pickle.dump(label_encoder, f)
-
 def save_model(model, model_path, encoder_path):
     """
     Save the trained face recognition model and label encoder to files.
