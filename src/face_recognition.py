@@ -48,7 +48,7 @@ def extract_embeddings(images):
     Args:
         images (list): List of image paths.
     Returns:
-        list: List of facial embeddings.
+        tuple: Tuple containing lists of facial embeddings, valid images, and labels.
     """
     detector = dlib.get_frontal_face_detector()
     predictor = dlib.shape_predictor("models/shape_predictor_68_face_landmarks.dat")
@@ -56,6 +56,7 @@ def extract_embeddings(images):
     
     embeddings = []
     valid_images = []
+    labels = []
     
     for image_path in images:
         # Filter out invalid image files
@@ -76,16 +77,22 @@ def extract_embeddings(images):
             
             if len(faces) > 0:
                 valid_images.append(image_path)
-            
-            for face in faces:
-                landmarks = predictor(gray, face)
-                face_embedding = np.array(face_rec_model.compute_face_descriptor(image, landmarks))
-                embeddings.append(face_embedding)
+                
+                # Add a label for each detected face in the image
+                for face in faces:
+                    labels.append(os.path.basename(os.path.dirname(image_path)))  # Use folder name as label
+                
+                for face in faces:
+                    landmarks = predictor(gray, face)
+                    face_embedding = np.array(face_rec_model.compute_face_descriptor(image, landmarks))
+                    embeddings.append(face_embedding)
     
     print("Number of valid images:", len(valid_images))
     print("Number of detected faces:", len(embeddings))
+    print("Number of labels:", len(labels))
     
-    return embeddings
+    return embeddings, valid_images, labels
+
 
 
 def train_model(images, labels):
@@ -93,16 +100,16 @@ def train_model(images, labels):
     Train a face recognition model using facial embeddings and corresponding labels.
     Args:
         images (list): List of image paths.
-        labels (list): List of encoded labels.
+        labels (list): List of labels corresponding to the images.
     Returns:
         tuple: Trained face recognition model and label encoder.
     """
-    # Extract facial embeddings
-    embeddings = extract_embeddings(images)
+    # Extract facial embeddings and labels
+    embeddings, _, valid_labels = extract_embeddings(images)
     
-    # Check if the number of images matches the number of detected faces
-    if len(images) != len(embeddings):
-        print("Error: Number of images does not match the number of detected faces.")
+    # Check if the number of embeddings matches the number of labels
+    if len(embeddings) != len(valid_labels):
+        print("Error: Number of embeddings does not match the number of labels.")
         return None, None
     
     # Train the model
@@ -116,20 +123,23 @@ def train_model(images, labels):
     
     # Create and train the model
     model = make_pipeline(StandardScaler(), PCA(n_components=n_components), SVC(kernel='linear', probability=True))
-    model.fit(embeddings, labels)
+    model.fit(embeddings, valid_labels)
     
     # Create and fit the label encoder
     label_encoder = LabelEncoder()
-    label_encoder.fit(labels)
+    label_encoder.fit(valid_labels)
     
     return model, label_encoder
 
 
-def save_model(model, model_path, encoder_path):
+
+
+def save_model(model, label_encoder, model_path, encoder_path):
     """
     Save the trained face recognition model and label encoder to files.
     Args:
         model (Pipeline): Trained face recognition model.
+        label_encoder (object): Trained label encoder.
         model_path (str): Path to save the model file.
         encoder_path (str): Path to save the label encoder file.
     """
@@ -141,7 +151,6 @@ def save_model(model, model_path, encoder_path):
     with open(encoder_path, 'wb') as f:
         pickle.dump(label_encoder, f)
 
-# Example usage
 if __name__ == "__main__":
     data_dir = "data/employee_images"
     model_path = "models/face_recognition_model.pkl"
@@ -150,12 +159,12 @@ if __name__ == "__main__":
     # Load employee data
     images, labels, unique_labels, label_encoder = load_employee_data(data_dir)
     
-    # Train the face recognition model
+    # Train the face recognition model using only the valid images
     model, _ = train_model(images, labels)
     
     if model is not None:
         # Save the trained model and label encoder
-        save_model(model, model_path, encoder_path)
+        save_model(model, label_encoder, model_path, encoder_path)  # Pass only model and label_encoder
         print("Model and label encoder saved successfully.")
     else:
         print("Failed to train the model.")

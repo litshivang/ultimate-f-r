@@ -1,0 +1,22 @@
+# generate_label_encoder.py
+
+import pickle
+from face_recognition import load_employee_data, train_model, save_model
+
+if __name__ == "__main__":
+    data_dir = "data/employee_images"
+    encoder_path = "models/label_encoder.pkl"
+    
+    # Load employee data
+    images, labels, unique_labels, label_encoder = load_employee_data(data_dir)
+    
+    # Train the face recognition model using only the valid images
+    model, label_encoder = train_model(images, labels)
+    
+    if model is not None and label_encoder is not None:
+        # Save the label encoder
+        with open(encoder_path, 'wb') as f:
+            pickle.dump(label_encoder, f)
+        print("Label encoder saved successfully.")
+    else:
+        print("Failed to generate label encoder.")

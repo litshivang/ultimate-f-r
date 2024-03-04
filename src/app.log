@@ -130,3 +130,96 @@
 2024-03-02 13:49:42,297 - INFO - 127.0.0.1 - - [02/Mar/2024 13:49:42] "POST /recognize HTTP/1.1" 200 -
 2024-03-02 14:15:27,148 - INFO - 127.0.0.1 - - [02/Mar/2024 14:15:27] "POST /recognize HTTP/1.1" 200 -
 2024-03-02 14:29:11,686 - INFO - 127.0.0.1 - - [02/Mar/2024 14:29:11] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 14:45:49,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 14:45:49,451 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 14:48:55,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 14:48:55,445 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 14:55:05,300 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 14:55:05,301 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 14:56:09,028 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 14:56:09,028 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 14:56:09,061 - INFO -  * Restarting with stat
+2024-03-04 14:56:09,564 - WARNING -  * Debugger is active!
+2024-03-04 14:56:09,658 - INFO -  * Debugger PIN: 111-365-557
+2024-03-04 14:56:42,097 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 14:56:42,098 - INFO - 127.0.0.1 - - [04/Mar/2024 14:56:42] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 14:57:02,954 - INFO - 127.0.0.1 - - [04/Mar/2024 14:57:02] "[33mPOST /recognizes HTTP/1.1[0m" 404 -
+2024-03-04 14:57:06,561 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 14:57:06,561 - INFO - 127.0.0.1 - - [04/Mar/2024 14:57:06] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 14:57:18,583 - INFO -  * Detected change in 'G:\\New Location\\one\\src\\app.py', reloading
+2024-03-04 14:57:18,807 - INFO -  * Restarting with stat
+2024-03-04 14:57:36,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 14:57:36,489 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 15:00:06,692 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 15:00:06,692 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 15:00:06,695 - INFO -  * Restarting with stat
+2024-03-04 15:00:07,222 - WARNING -  * Debugger is active!
+2024-03-04 15:00:07,229 - INFO -  * Debugger PIN: 111-365-557
+2024-03-04 15:00:33,441 - INFO -  * Detected change in 'G:\\New Location\\one\\src\\app.py', reloading
+2024-03-04 15:00:33,495 - INFO -  * Restarting with stat
+2024-03-04 15:00:46,251 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 15:00:46,251 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 15:00:46,251 - INFO -  * Restarting with stat
+2024-03-04 15:00:46,808 - WARNING -  * Debugger is active!
+2024-03-04 15:00:46,814 - INFO -  * Debugger PIN: 111-365-557
+2024-03-04 15:01:43,743 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 15:01:43,744 - INFO - 127.0.0.1 - - [04/Mar/2024 15:01:43] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 15:01:50,264 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 15:01:50,264 - INFO - 127.0.0.1 - - [04/Mar/2024 15:01:50] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 15:02:15,378 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 15:02:15,378 - INFO - 127.0.0.1 - - [04/Mar/2024 15:02:15] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 16:33:37,254 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 16:33:37,254 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 16:33:37,254 - INFO -  * Restarting with stat
+2024-03-04 16:33:37,767 - WARNING -  * Debugger is active!
+2024-03-04 16:33:37,782 - INFO -  * Debugger PIN: 111-365-557
+2024-03-04 16:33:43,724 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 16:33:43,725 - INFO - 127.0.0.1 - - [04/Mar/2024 16:33:43] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 16:33:47,028 - INFO - 127.0.0.1 - - [04/Mar/2024 16:33:47] "[33mPOST /recognizes HTTP/1.1[0m" 404 -
+2024-03-04 16:33:50,137 - INFO - 127.0.0.1 - - [04/Mar/2024 16:33:50] "[33mPOST /recognizesw HTTP/1.1[0m" 404 -
+2024-03-04 16:33:52,717 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 16:33:52,717 - INFO - 127.0.0.1 - - [04/Mar/2024 16:33:52] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 16:34:28,157 - ERROR - Error in recognize_face: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-03-04 16:34:28,158 - INFO - 127.0.0.1 - - [04/Mar/2024 16:34:28] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 16:34:57,605 - ERROR - Error in recognize_face: [Errno 2] No such file or directory: 'models/label_encoder.pkl'
+2024-03-04 16:34:57,607 - INFO - 127.0.0.1 - - [04/Mar/2024 16:34:57] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:34:09,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8888
+ * Running on http://192.168.31.54:8888
+2024-03-04 17:34:09,423 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-04 17:34:09,423 - INFO -  * Restarting with stat
+2024-03-04 17:34:09,900 - WARNING -  * Debugger is active!
+2024-03-04 17:34:09,907 - INFO -  * Debugger PIN: 111-365-557
+2024-03-04 17:39:54,826 - ERROR - Error in recognize_face: y contains previously unseen labels: ['Amitkumar Vinodkumar Agarwal']
+2024-03-04 17:39:54,828 - INFO - 127.0.0.1 - - [04/Mar/2024 17:39:54] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:40:22,710 - ERROR - Error in recognize_face: y contains previously unseen labels: ['YAGNIKKUMAR ASHOKBHAI KSHATRIYA']
+2024-03-04 17:40:22,712 - INFO - 127.0.0.1 - - [04/Mar/2024 17:40:22] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:41:59,931 - ERROR - Error in recognize_face: y contains previously unseen labels: ['Amipara Brijeshkumar Karshanbhai']
+2024-03-04 17:41:59,932 - INFO - 127.0.0.1 - - [04/Mar/2024 17:41:59] "POST /recognize HTTP/1.1" 200 -
+2024-03-04 17:42:19,876 - ERROR - Error in recognize_face: y contains previously unseen labels: ['ANKIT CHAUHAN']
+2024-03-04 17:42:19,877 - INFO - 127.0.0.1 - - [04/Mar/2024 17:42:19] "POST /recognize HTTP/1.1" 200 -
